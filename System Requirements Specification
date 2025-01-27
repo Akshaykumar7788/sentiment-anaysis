@@ -1,0 +1,71 @@
+System Requirements Specification
+1. Introduction
+1.1 Purpose
+The purpose of this document is to provide a detailed overview of the requirements for the proposed sentiment analysis system.
+1.2 Scope
+The proposed system aims to perform sentiment analysis on social media data, with a focus on tweets, providing organizations and users with insights into public opinions and sentiments.
+2. Overall Description
+2.1 Product Perspective
+The sentiment analysis system will be a standalone application that fetches and analyses social media data to determine sentiment.
+2.2 Product Features
+•	Sentiment analysis of tweets.
+•	Categorization of sentiments into positive and negative.
+•	Visualization of sentiment distribution through charts (e.g., pie chart, bar graph).
+•	Ability to process a large volume of tweets efficiently.
+2.3 User Classes and Characteristics
+The primary users of the system are organizations and data analysts interested in understanding public sentiments on social media.
+2.4 Operating Environment
+The system should be compatible with common operating systems (Windows, Linux) and be accessible through a web interface.
+3. Functional Requirements
+3.1 Data Collection
+3.1.1 Description
+The system should fetch tweets from social media platforms or a specified data file for sentiment analysis.
+3.1.2 Acceptance Criteria
+The system should successfully retrieve and process a specified number of tweets within a reasonable time frame.
+3.2 Sentiment Analysis
+3.2.1 Description
+Perform sentiment analysis on collected data, categorizing sentiments into positive and negative.
+3.2.2 Acceptance Criteria
+The system should accurately classify sentiments with a rate of at least 80% accuracy.
+3.3 Visualization
+3.3.1 Description
+Present the sentiment distribution through graphical representation (e.g., pie chart, bar graph).
+3.3.2 Acceptance Criteria
+The visualization should be clear, intuitive, and accurately represent the distribution of positive and negative sentiments.
+3.4 Scalability
+3.4.1 Description
+The system should handle a large volume of tweets efficiently without compromising performance.
+3.4.2 Acceptance Criteria
+The system should maintain acceptable response times even when processing a substantial number of tweets.
+4. Non-Functional Requirements
+4.1 Performance
+4.1.1 Description
+The system should provide timely responses for data collection, sentiment analysis, and visualization.
+4.1.2 Acceptance Criteria
+The response time for all system functionalities should be within 5 seconds.
+4.2 Usability
+4.2.1 Description
+The user interface should be intuitive and user-friendly.
+4.2.2 Acceptance Criteria
+Users without specialized training should be able to perform sentiment analysis tasks after minimal training.
+4.3 Reliability
+4.3.1 Description
+The system should be reliable and available for use during standard operating hours.
+4.3.2 Acceptance Criteria
+The system should have an uptime of at least 99% during standard operating hours.
+4.4 Security
+4.4.1 Description
+The system should ensure the confidentiality and integrity of collected and analysed data.
+4.4.2 Acceptance Criteria
+Access to the system and its data should be restricted to authorized users.
+5. Constraints
+5.1 Technology Constraints
+The system must be compatible with Python-based development frameworks and libraries.
+5.2 Legal and Regulatory Constraints
+The system should adhere to data protection laws and regulations governing the collection and analysis of social media data.
+6. Future Enhancements
+6.1 Web Application Development
+Consideration for the development of a web-based application with improved user interfaces and real-time data analysis capabilities.
+6.2 Multilingual Support
+Incorporate support for sentiment analysis in multiple languages.
+
